@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jflhproject.iml" filepath="$PROJECT_DIR$/jflhproject.iml" />
+      <module fileurl="file://E:/maven/maven.iml" filepath="E:/maven/maven.iml" />
+    </modules>
+  </component>
+</project>

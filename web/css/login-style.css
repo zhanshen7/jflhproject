@@ -1,0 +1,160 @@
+#login-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: 90;
+}
+
+#login-register-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -260px;
+    padding: 20px 30px 10px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px #000000;
+    z-index: 91;
+}
+
+/*login-box-hd*/
+#login-box-hd > a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #333333;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#login-box-hd > a:hover {
+    color: #ff630e;
+}
+
+.switch-slide {
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: 70px;
+    border-radius: 2px;
+    background-color: #ff630e;
+}
+
+#btn-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+/*login-box-bd*/
+#login-box, #register-box {
+    width: 270px;
+}
+
+#show-password {
+    position: absolute;
+    float: right;
+    right: 20px;
+    width: 34px;
+    height: 34px;
+    padding-top: 10px;
+    text-align: center;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.btn-submit {
+    font-size: 1.2em;
+    background-color: #ff630e;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #ff7029;
+}
+
+#login-box > a, #register-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #808080;
+    font-size: 0.8em;
+}
+
+/*social-account-login-box*/
+#social-account-login-box {
+    width: 180px;
+    padding: 10px 0 0 40px;
+    border-left: 1px solid #e2e2e2;
+}
+
+#btn-qq, #btn-wechat {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+#btn-qq {
+    background-color: #3fa6ee;
+}
+
+#btn-wechat {
+    background-color: #46c33d;
+}
+
+#btn-qqt:hover {
+    background-color: #57afeb;
+}
+
+#btn-wechat:hover {
+    background-color: #5bc251;
+}
+
+#label-notice {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #808080;
+    font-size: 0.7em;
+}
+
+/*form-control*/
+#canvas-verifyCode {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 130px;
+    height: 50px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #cccccc;
+}
+
+.error-feedback {
+    position: absolute;
+    color: #ff0000;
+    top: 32px;
+}
+
+.error-feedback-bg {
+    top: -30px;
+    padding: 3px 10px;
+    width: 220px;
+    background-color: #fffbe2;
+    border: 1px solid #f4e798;
+}
+
+.fa-check, .fa-times, .fa-pulse {
+    margin-right: 10px;
+}
+
