@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsp-taglibs">
+    <CLASSES>
+      <root url="file://D:/Java-lib/jsp-taglibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/Java-lib/jsp-taglibs" recursive="false" />
+  </library>
+</component>
